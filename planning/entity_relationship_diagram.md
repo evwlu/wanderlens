@@ -4,14 +4,55 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## Create the List of Tables
 
-[👉🏾👉🏾👉🏾 List each table in your diagram]
+Below are the cities that we'll consider: 
+> Cities
+> Users
+> Posts
+> Likes
+> Photos
 
-## Add the Entity Relationship Diagram
+## Entity Relationship Diagram
 
-[👉🏾👉🏾👉🏾 Include an image or images of the diagram below. You may also wish to use the following markdown syntax to outline each table, as per your preference.]
+![Alt text](../assets/Entity_Relationships.png)
 
-| Column Name | Type | Description |
-|-------------|------|-------------|
-| id | integer | primary key |
-| name | text | name of the shoe model |
-| ... | ... | ... |
+## Schema
+
+![Alt text](../assets/Database_Schema.png)
+
+### Cities
+| Column Name | Type        | Description        |
+|-------------|-------------|--------------------|
+| id          | integer     | primary key        |  // primary key
+| name        | varchar(500)| city name          |
+| description | varchar(500)| city description   |
+
+### Users
+| Column Name | Type        | Description        |  
+|-------------|-------------|--------------------|
+| id          | integer     | primary key        |  // primary key
+| username    | varchar(100)| user name          |
+| github_id   | integer     | github access id   |
+| avatar_url  | varchar(500)| link to user photo |
+| access_token| varchar(500)| personal token     |
+
+### Posts
+| Column Name | Type        | Description        |
+|-------------|-------------|--------------------|
+| id          | integer     | primary key        | // primary key
+| user_id     | integer     | user who posted    | // primary key, foreign key
+| city_id     | integer     | city photo taken in| // primary key, foreign key
+
+### Likes
+| Column Name | Type        | Description        |
+|-------------|-------------|--------------------|
+| user_id     | integer     | user who likes     | // primary key, foreign key
+| post_id     | integer     | post being liked   | // primary key, foreign key
+
+### Photos
+| Column Name | Type        | Description        |
+|-------------|-------------|--------------------|
+| id          | integer     | primary key        | // primary key
+| user_id     | integer     | user who posted    | // primary key, foreign key
+| city_id     | integer     | city photo taken in| // primary key, foreign key
+| post_id     | integer     | associated post    | // primary key, foreign key
+| image_url   | varchar(100)| photo url          |

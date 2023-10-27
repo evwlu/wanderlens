@@ -4,18 +4,20 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## List of Pages
 
-[👉🏾👉🏾👉🏾 List the pages you expect to have in your app, with a ⭐ next to pages you have wireframed]
+Pages that will be wireframed include, but are not limited to 
 
-## Wireframe 1: [page title]
+## Wireframe 1: Map/Home Page
 
-[👉🏾👉🏾👉🏾 include wireframe 1]
+![alt text](../assets/Wireframe_HomePage.png)
 
-## Wireframe 2: [page title]
+## Wireframe 2: Profile Page
 
-[👉🏾👉🏾👉🏾 include wireframe 2]
+![Alt text](../assets/Wireframe_ProfilePage.png)
 
-## Wireframe 3: [page title]
+## Wireframe 3: User Page
 
-[👉🏾👉🏾👉🏾 include wireframe 3]
+![Alt text](../assets/Wireframe_UserPage.png)
 
-[👉🏾👉🏾👉🏾 include more wireframes as desired]
+## Wireframe 4: Image Page
+
+![Alt text](../assets/Wireframe_ImagePage.png)
