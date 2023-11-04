@@ -4,8 +4,8 @@ CodePath WEB103 Final Project
 
 Designed and developed by: Evan Lu & Viet Khue Vu
 
-evwlu
-kvv190001
+@evwlu
+@kvv190001
 
 🔗 Link to deployed app:  
 
