@@ -52,4 +52,3 @@ We are not yet aware of any specific issues that will require immediate support.
 However, as our project develops and we go through the motions of completing 
 more features and implementation goals, we may require assistance and will
 go about requesting it accordingly.
-
