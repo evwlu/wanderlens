@@ -20,16 +20,16 @@ const HomePage = () => {
         const data = await response.json();
 
         // Extract city names from the features
-        const cityNames = data.features.map((feature) => feature.text);
+        // const cityNames = data.features.map((feature) => feature.text);
 
         // Convert city names to a JSON string
-        const jsonString = JSON.stringify(cityNames, null, 2);
+        // const jsonString = JSON.stringify(cityNames, null, 2);
 
         // Create a Blob with the JSON data
-        const blob = new Blob([jsonString], { type: 'application/json' });
+        // const blob = new Blob([jsonString], { type: 'application/json' });
 
         // Save the Blob as a JSON file
-        saveAs(blob, 'cityNames.json');
+        // saveAs(blob, 'cityNames.json');
 
         console.log('City names saved to cityNames.json');
       } catch (error) {
