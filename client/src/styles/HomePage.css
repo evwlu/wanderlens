@@ -1,0 +1,14 @@
+.map-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px; /* Adjust the height as needed */
+    margin: 40px; /* Adjust the margin as needed */
+    border-radius: 10px; /* Add rounded borders */
+    overflow: hidden; /* Hide overflow to keep rounded corners */
+}
+
+.access_box {
+    margin-top: 20px;
+}
+

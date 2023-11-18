@@ -3,11 +3,11 @@
 CodePath WEB103 Final Project
 
 Designed and developed by: Evan Lu & Viet Khue Vu
-
+<!-- 
 @evwlu
 @kvv190001
 
-🔗 Link to deployed app:  
+🔗 Link to deployed app:   -->
 
 ## About
 
@@ -44,32 +44,43 @@ Backend: Express, PostgreSQL
 
 ## Features
 
-### Interactive Map
+### ✅ Interactive Map
 
 Users can use an interactive map to find photos at new locations around the world
 
-<!-- [gif goes here] -->
 
-### Uploading new photos
+![map](assets/features/Feature_useMap.gif)
+
+### ✅ Uploading new photos
 
 This app allows users to share their cool photos with other professional photographers
 
-<!-- [gif goes here] -->
+![upload](assets/features/Feature_uploadPhotos.gif)
 
-### Interact with others' photos
+### ✅ Interact with others' photos
 
 Users can drop like on the photos that they think are cool
 
-<!-- [gif goes here] -->
+![interact](assets/features/Feature_likePhotos.gif)
 
-### Search Bar
+### ✅ Login
 
-Users can quickly filter photos at a specific location by using the search bar
+Users can login and access their own personal profile
 
-<!-- [gif goes here] -->
+![login](assets/features/Feature_login.gif)
 
-### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
+### ✅ Editing
+
+Users can customize their own profiles
+
+![edit](assets/features/Feature_editProfile.gif)
 
 ## Installation Instructions
 
-[instructions go here]
+1) To get started, clone the repository to your own desktop.
+
+> `git clone https://github.com/evwlu/wanderlens.git`
+
+2) Run `npm install` in the `client` and `server` directory.
+
+3) Run `npm run dev` in the `client` directory and run `npm start` in the `server` directory.
