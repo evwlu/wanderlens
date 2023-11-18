@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Venice",
+      "description": "Venice brings romance to the forefront, with sprawling Baroque palaces and meandering, gondola-dotted canals",
+      "img_url": "https://tinyurl.com/5e7kcc5a"
+    },
+    {
+      "title": "Cairo",
+      "description": "Your adventure is in Cairo, where historic mosques mingle with today's modern bustle.",
+      "img_url": "https://tinyurl.com/yesanwy8"
+    },
+    {
+      "title": "Galápagos Islands",
+      "description": "Island hop through the Galápagos, where you'll move from mangrove swamps to lava flows to sunny shorelines, encountering scores of exotic creatures along the way.",
+      "img_url": "https://tinyurl.com/3f4nzn7z"
+    }
+  ]
