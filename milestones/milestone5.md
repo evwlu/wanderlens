@@ -8,13 +8,13 @@ This unit, be sure to complete all tasks listed below. To complete a task, place
 
 - [ ] Deploy your project on Railway
   - [ ] In `readme.md`, add the link to your deployed project
-- [ ] Update the status of issues in your project board as you complete them
-- [ ] In `readme.md`, check off the features you have completed in this unit by adding a ✅ emoji in front of their title
-  - [ ] Under each feature you have completed, **include a GIF** showing feature functionality
-- [ ] In this document, complete the **Reflection** section below
-- [ ] 🚩🚩🚩**Complete the Final Project Feature Checklist section below**, detailing each feature you completed in the project (ONLY include features you implemented, not features you planned)
-- [ ] 🚩🚩🚩**Record a GIF showing a complete run-through of your app** that displays all the components included in the **Final Project Feature Checklist** below
-  - [ ] Include this GIF in the **Final Demo GIF** section below
+- [x] Update the status of issues in your project board as you complete them
+- [x] In `readme.md`, check off the features you have completed in this unit by adding a ✅ emoji in front of their title
+  - [x] Under each feature you have completed, **include a GIF** showing feature functionality
+- [x] In this document, complete the **Reflection** section below
+- [x] 🚩🚩🚩**Complete the Final Project Feature Checklist section below**, detailing each feature you completed in the project (ONLY include features you implemented, not features you planned)
+- [x] 🚩🚩🚩**Record a GIF showing a complete run-through of your app** that displays all the components included in the **Final Project Feature Checklist** below
+  - [x] Include this GIF in the **Final Demo GIF** section below
 
 ## Final Project Feature Checklist
 
@@ -54,7 +54,7 @@ Complete the checklist below detailing each baseline, custom, and stretch featur
 - [ ] The project includes a custom non-RESTful route with corresponding controller actions
 - [ ] The project allows filtering and/or sorting as appropriate for your use case
 - [ ] Data is automatically generated in response to a certain event or user action. Examples include generating a default inventory for a new user starting a game or creating a starter set of tasks for a user creating a new task app account
-- [ ] Data submitted via a POST or PATCH request is validated before the database is updated
+- [x] Data submitted via a POST or PATCH request is validated before the database is updated
 
 ### Stretch Features
 
@@ -71,26 +71,26 @@ Complete the checklist below detailing each baseline, custom, and stretch featur
 
 ## Final Demo GIF
 
-🔗 [Here's a GIF walkthrough of the final project](👉🏾👉🏾👉🏾 your link here)
+![Demo](../assets/features/Demo.gif)
 
 ## Reflection
 
 ### 1. What went well during this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Implementing features and working with the frontend components worked very well during this unit. We managed to complete the project and set everything up as necessary. 
 
 ### 2. What were some challenges your group faced in this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Coordination and deployment proved to be relatively difficult, but we stand proud that our product is completely function when run locally. Deploying it should not be too much work in terms of changing features or functionalities, so it is just a final trimish we should note.
 
 ### 3. What were some of the highlights or achievements that you are most proud of in this project?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Completing the project and integrating our components were our proudest achievements. Highlights included the great schema and end result that we made. 
 
 ### 4. Reflecting on your web development journey so far, how have you grown since the beginning of the course?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We have learned much about backend components and how to handle proxy server requests using Express and PostgreSQL.
 
 ### 5. Looking ahead, what are your goals related to web development, and what steps do you plan to take to achieve them?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Making sure that the product is functional (with respect to deployment) and adding more flair would be our next priority. 

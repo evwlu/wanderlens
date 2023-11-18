@@ -8,6 +8,8 @@ import PageNotFound from './pages/PageNotFound';
 import ProfilePage from './pages/ProfilePage';
 import HomePage from './pages/HomePage';
 import Login from './pages/Login';
+import PhotoPage from './pages/PhotoPage';
+import GalleryPage from './pages/GalleryPage';
 
 const App = () => {
   let element = useRoutes([
@@ -26,6 +28,14 @@ const App = () => {
     {
       path: "/profile/:id",
       element: <ProfilePage />
+    },
+    {
+      path: "/photos/:id",
+      element: <PhotoPage />
+    },
+    {
+      path: "/gallery/:country/:city",
+      element: <GalleryPage />
     },
     {
       path: "/*",

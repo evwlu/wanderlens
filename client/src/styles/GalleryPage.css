@@ -1,0 +1,49 @@
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .photo-list-container {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow: auto;
+  }
+  
+  .photo-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .photo {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .upload-input {
+    flex: 1;
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .upload-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }

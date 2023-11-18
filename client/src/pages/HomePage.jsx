@@ -1,10 +1,12 @@
 import React, { useRef, useState } from 'react';
 import Map from 'react-map-gl'  
 import 'mapbox-gl/dist/mapbox-gl.css';
+import { useNavigate } from 'react-router-dom'
 import { mapboxAPIKey } from '../private/Key.js'
 import '../styles/HomePage.css';
 
 const HomePage = () => {
+    const navigate = useNavigate();
     const [viewState, setViewState] = React.useState({
         longitude : -98.5795, 
         latitude : 36.8283,
@@ -45,6 +47,12 @@ const HomePage = () => {
         }
     };
 
+    const onButtonClick = () => {
+        if (city !== "" && country !== "") {
+            navigate(`/gallery/${country}/${city}`);
+        }
+    }
+
 
     return (
         <div className="map-container" aria-label = "map body">
@@ -64,7 +72,7 @@ const HomePage = () => {
                 >
             </Map>
             {}
-            <button className="access_box"> {featureData} </button>
+            <button className="access_box" onClick = {() => onButtonClick()} > {featureData} </button>
 
         </div>
     );
