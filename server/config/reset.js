@@ -15,7 +15,7 @@ const createPhotosTable = async () => {
       title varchar(100) NOT NULL,
       description varchar(500) NOT NULL,
       img_url text NOT NULL,
-      num_votes integer DEFAULT 0,
+      num_votes integer DEFAULT 0
     );
   `
 
@@ -106,7 +106,7 @@ const createPhotosUsersTable = async () => {
     console.log('🎉 photos_users table created successfully')
   }
   catch (error) {
-    console.error('⚠️ error creating photos_users table', err)
+    console.error('⚠️ error creating photos_users table', error)
   }
 }
 
@@ -162,10 +162,9 @@ const seedPhotosTable = async () => {
   })
 }
 
-seedTripsTable()
+seedPhotosTable()
 createDestinationsTable()
-createActivitiesTable()
-createTripsDestinationsTable()
+createPhotosDestinationsTable()
 createUsersTable()
-createTripsUsersTable()
-createUsersTripsTable()
+createPhotosUsersTable()
+createUsersPhotosTable()

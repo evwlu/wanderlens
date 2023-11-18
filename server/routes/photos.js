@@ -9,6 +9,6 @@ router.get('/:id', PhotosController.getPhoto)
 router.post('/', PhotosController.createPhoto)
 router.delete('/:id', PhotosController.deletePhoto)
 router.patch('/:id', PhotosController.updatePhoto)
-router.patch('/like/:id', PhotosController.updatePhotoLikes)
+// router.patch('/like/:id', PhotosController.updatePhotoLikes)
 
 export default router
